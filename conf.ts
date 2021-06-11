@@ -9,7 +9,7 @@ export let config: Config = {
       w3c: false
     }
   },
-  specs: ['**/dropin.spec.js'],
+  specs: ['**/calculator.spec.js'],
   onPrepare: ()=> {
     browser.waitForAngularEnabled(false);
   }
